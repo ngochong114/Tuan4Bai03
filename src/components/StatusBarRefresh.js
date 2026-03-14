@@ -101,9 +101,7 @@ const StatusBarRefresh = () => {
                       Đây là nội dung mẫu đẹp mắt, có shadow nhẹ và gradient hover feel.
                     </Text>
                   </Pressable>
-                )
-              })
-              }
+                )})}
             </View>
 
             <Text style={styles.note}>
