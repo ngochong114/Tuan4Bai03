@@ -11,14 +11,38 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; // expo install @expo/vector-icons
 
-const LoginScreen = () => {
+const DATA = [
+  {
+    email: 'admin@lhu.local',
+    name: 'Admin đẹp gái',
+    password: 'admin'
+  },
+  {
+    email: 'student1@gmail.com',
+    name: 'Studen 1',
+    password: 'student'
+  }
+]
+
+const LoginScreen = ({ onLoginSuccess }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
 
   const handleLogin = () => {
-    alert(`Đăng nhập với:\nEmail: ${email}`);
-    // Sau này thay bằng logic đăng nhập thật (API, Firebase, v.v.)
+    // Tìm user khớp với email & password đã nhập
+    const matchedUser = DATA.find(
+      (user) =>
+        user.email.toLowerCase() === email.trim().toLowerCase()
+        && user.password === password
+    )
+
+    if (matchedUser) {
+      console.log('Đăng nhập thành công. User: ', matchedUser.name)
+      onLoginSuccess()
+    } else {
+      Alert.alert('Đăng nhập thất bại', 'Email hoặc mật khẩu không chính xác!')
+    }
   };
 
   return (
