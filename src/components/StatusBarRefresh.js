@@ -90,8 +90,9 @@ const StatusBarRefresh = () => {
                     onLongPress={() => setLongPressedId(id)}
                     onPressOut={() => setLongPressedId(null)}
                     delayLongPress={300}
-                    style={[
+                    style={({pressed}) => [
                       styles.card,
+                      pressed && styles.cardPressed,
                       isLongPressed && styles.cardLongPressed
                     ]}
                   >
@@ -177,6 +178,9 @@ const styles = StyleSheet.create({
         elevation: 8,
       },
     }),
+  },
+  cardPressed: {
+    backgroundColor: 'rgb(62, 223, 113)'
   },
   cardLongPressed: {
     backgroundColor: 'rgb(240, 136, 199)',

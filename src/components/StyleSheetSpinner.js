@@ -18,13 +18,13 @@ const fruitData = [
   { id: '1', name: 'Táo', vietnamese: 'Táo', image: 'https://www.vinmec.com/static/uploads/20210303_090819_727308_an_tao_co_tot_cho_s_max_1800x1800_jpg_c45de8f19f.jpg' },
   { id: '2', name: 'Chuối', vietnamese: 'Chuối', image: 'https://storage.googleapis.com/onelife-public/blog.onelife.vn/2023/11/5cbb402d-1.png' },
   { id: '3', name: 'Cam', vietnamese: 'Cam', image: 'https://product.hstatic.net/1000309753/product/cam-4_b1be682b1df24b098c3a086405b46e7e_596e3b20f1d04f7796e8e342bbe85aa5_master.jpg' },
-  { id: '4', name: 'Dâu tây', vietnamese: 'Dâu tây', image: 'https://images.unsplash.com/photo-1601001435828-419e309a2f53?w=300' },
-  { id: '5', name: 'Xoài', vietnamese: 'Xoài', image: 'https://images.unsplash.com/photo-1607305387299-a3d9611cd469?w=300' },
-  { id: '6', name: 'Dưa hấu', vietnamese: 'Dưa hấu', image: 'https://images.unsplash.com/photo-1589984662646-e7b08ca2a5c9?w=300' },
-  { id: '7', name: 'Thơm', vietnamese: 'Thơm', image: 'https://images.unsplash.com/photo-1589984662646-e7b08ca2a5c9?w=300' },
-  { id: '8', name: 'Nho', vietnamese: 'Nho', image: 'https://images.unsplash.com/photo-1425934398893-310a010a40c9?w=300' },
-  { id: '9', name: 'Cherry', vietnamese: 'Anh đào', image: 'https://images.unsplash.com/photo-1524239507669-0c3a1f4d49e0?w=300' },
-  { id: '10', name: 'Dừa', vietnamese: 'Dừa', image: 'https://images.unsplash.com/photo-1589984662646-e7b08ca2a5c9?w=300' },
+  { id: '4', name: 'Dâu tây', vietnamese: 'Dâu tây', image: 'https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2024_1_17_638410957656200345_cach-an-dau-tay-1.jpg' },
+  { id: '5', name: 'Xoài', vietnamese: 'Xoài', image: 'https://suckhoedoisong.qltns.mediacdn.vn/Images/duylinh/2019/08/15/8-loi-ich-it-biet-cua-xoai1565855128.jpg' },
+  { id: '6', name: 'Dưa hấu', vietnamese: 'Dưa hấu', image: 'https://product.hstatic.net/1000282430/product/seedless-watermelon-around-2.5kg-whole-fruit_23a860613aa94413aca16b9d766f6291_grande.jpg' },
+  { id: '7', name: 'Thơm', vietnamese: 'Thơm', image: 'https://shop.annam-gourmet.com/pub/media/catalog/product/i/t/item_F148770_a984.jpg' },
+  { id: '8', name: 'Nho', vietnamese: 'Nho', image: 'https://cdn.tgdd.vn/Products/Images/8788/320858/bhx/nho-xanh-ninh-thuan-500g-202312291331094358.jpg' },
+  { id: '9', name: 'Cherry', vietnamese: 'Anh đào', image: 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Italienische_S%C3%BC%C3%9Fkirschen.JPG' },
+  { id: '10', name: 'Dừa', vietnamese: 'Dừa', image: 'https://hoangphatfruit.com/vnt_upload/product/02_2022/sp3.png' },
 ];
 
 const StyleSheetSpinner = () => {
